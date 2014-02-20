@@ -1,0 +1,105 @@
+body{
+    height: auto;
+}
+.row {
+    max-width: 80rem;
+}
+#bsr-console, #main{
+    height: 100%;
+}
+.logo-bar .button{
+    padding-top: 0.6rem;
+    padding-bottom: 0.45rem;
+}
+.logo-bar input, .logo-bar .button{
+    margin-top: 2rem;   
+}
+.logo{
+    padding: 10px;
+}
+.footer-logo{
+    background: url('../images/bridgeit-logo-background-50px.png') no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 52px;
+    opacity: 0.6;
+}
+.links{
+    display: inline-block;
+}
+.links li{
+    display: block;
+    float: left;
+    margin-left: 6px;
+}
+.links li a{
+    color: #666;
+    padding: 3px 6px;
+}
+.sidebar {
+    background: #FAFAFA;
+    padding: 0 20px;
+    height: 100%;
+}
+.side-nav {
+    display: block;
+    margin: 0;
+    padding: 0.77778rem 0;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+}
+.sidebar .no-icon{
+    margin-left: 29px;
+}
+.breadcrumbs-container{
+    vertical-align: top;
+    padding-left: 0;
+    background-color: rgb(233, 233, 233);
+}
+.breadcrumbs{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+footer{
+    clear: both;
+    background: #333;
+    padding: 15px 0 10px;
+    display: block;
+    width: 100%;
+    z-index: 10;
+}
+.copyright{
+    margin: 6px 0 0;
+    font-size: 0.66667rem;
+    color: #666;   
+}
+.login{
+    max-width: 600px;
+    margin: 20px auto;
+    background: url('../images/bridgeit-logo-background-50px.png') no-repeat;
+    background-position: 93% 12px;
+    box-shadow: 0px 0px 40px #666;
+}
+.forgot-password{
+    font-size: smaller;
+}
+.login-btn{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.fa{
+    margin-right: 10px;
+    font-size: 120%;
+}
+.bsr-content{
+    padding: 20px;
+}
+.tabs-content{
+    padding: 10px;
+    border-top: 1px solid #EFEFEF;
+}
+.realm-select{
+    margin-bottom: 0;
